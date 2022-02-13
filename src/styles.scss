@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "assets/scss/reset";
+
+body{
+  background: #F7F7FD;
+}
+
+.container{
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header{
+  background: #FFFFFF;
+  border-radius: 0px 0px 24px 24px;
+  padding: 30px 0;
+  &__logo{
+    font-size: 60px;
+    color:#5E62DA;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  width: 500px;
+  height: 55px;
+  background-image: url(assets/img/select-arrow-black.svg);
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  padding: 0 30px;
+  &::-ms-expand {
+    display: none; // IE
+  }
+}
+
+.content{
+  padding: 30px 0;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 15px;
+}
