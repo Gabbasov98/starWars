@@ -50,7 +50,7 @@ export class StarWarsService {
       .pipe(
         map(film=>{
           return {
-            film: film.title,
+            title: film.title,
             release_date: film.release_date,
           }
         })
